@@ -57,8 +57,7 @@ public class PrimitiveDataTypes {
     }
 
     /**
-     * This method shows the arithmetic operations performed on variables
-     * Addition, Multiplication, Subtraction, Division are arithmetic operations
+     * This method shows the arithmetic operations [Addition, Multiplication, Subtraction, Division] performed on variables
      */
     public static void arithmeticOperations(){
 
