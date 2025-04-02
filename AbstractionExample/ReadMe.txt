@@ -11,11 +11,11 @@ Class is said to be abstract, when it contains atleast one abstract method
 Encapsulation is the technique whereby the object's state is hidden from the outer world and a set of public methods for accessing this state are exposed. When each object keeps its state private inside a class, we can say that encapsulation was achieved.
 This is why encapsulation is also referenced as the data-hiding mechanism.
 
-Inheritance is like an abstract class with all the abstract methods. But we don't explicitly have abstract defined in the class name of interface or methods in the interface
+Interface is like an abstract class with all the abstract methods. But we don't explicitly have abstract defined in the class name of interface or methods in the interface
 
 
 Abstraction and Encapsulation in Java are two important Object-oriented programming concepts and they are completely different from each other.
-Encapsulation is a process of binding or wrapping the data and the codes that operate on the data into a single entity. This keeps the data safe from outside interface and misuse.
+Encapsulation is a process of binding or wrapping the data and the code that operates on the data into a single entity. This keeps the data safe from outside interface and misuse.
 Abstraction is the concept of hiding irrelevant details. In other words, make the complex system simple by hiding unnecessary detail from the user.
 Abstraction is implemented in Java using an interface and abstract class while Encapsulation is implemented using private, package-private, and protected access modifiers.
 Abstraction solves the problem at the design level. Whereas Encapsulation solves the problem at the implementation level.
