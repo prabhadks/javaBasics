@@ -14,5 +14,6 @@ public class ForLoopExercise {
         System.out.println(("Sum of Divisors: "+ number.sumOfDivisors()));
         System.out.println("Print a number triangle: ");
         number.printANumberTriangle();
+        System.out.println("Factorial of a number: " + number.calculateFactorial());
     }
 }

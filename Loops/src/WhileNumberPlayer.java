@@ -1,13 +1,15 @@
 public class WhileNumberPlayer {
 
     private int limit;
+
     public WhileNumberPlayer(int limit) {
         this.limit = limit;
     }
 
     public void printSquaresUptoLimit() {
         int i = 1;
-        while(i * i < limit) {
+        System.out.println("Squares upto limit: ");
+        while (i * i < limit) {
             System.out.print(i * i + " ");
             i++;
         }
@@ -16,7 +18,8 @@ public class WhileNumberPlayer {
 
     public void printCubesUptoLimit() {
         int i = 1;
-        while(i * i * i < limit) {
+        System.out.println("Cubes upto limit: ");
+        while (i * i * i < limit) {
             System.out.print(i * i * i + " ");
             i++;
         }
