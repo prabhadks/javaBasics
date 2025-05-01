@@ -45,4 +45,21 @@ public class MyNumber {
 
         }
     }
+    public int calculateFactorial() {
+        // Write your code here
+        //4! = 4 * 3 * 2 * 1
+        //0! = 1
+        //<0 return -1
+        int product = 1;
+        if(number == 0 || number == 1) {
+            return product;
+        }
+        if(number > 1) {
+            for(int i = number; i > 1; i--) {
+                product = product * i;
+            }
+            return product;
+        }
+        return -1;
+    }
 }
