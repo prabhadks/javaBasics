@@ -21,8 +21,10 @@ variableName = new <datatype>[] {value1, value2, ...};
 8. Java supports multidimensional arrays as well.
 <datatype>[][] variableName = new <datatype>[arraylength1][arraylength2];
 
-8. Arrays is a class that has inbuilt methods to sort the elements in array, identify the length of array, etc.,
+9. Arrays is a class that has inbuilt methods to sort the elements in array, fill the data in an array, compare the arrays,  etc.,
 
-9. Accessing the index that doesn't exist in an array results in "Array Index Out of Bound Exception"
+10. length is the property that is used to find the length of an array as arrayName.length. Note, this is not a function.
 
-10. Arrays have a fixed size.
+11. Accessing the index that doesn't exist in an array results in "Array Index Out of Bound Exception"
+
+12. Arrays have a fixed size. Once created with specific size, it cannot be modified. Cannot add or remove an element from an array. Only way is to create a new array. Hence ArrayList solves this problem
