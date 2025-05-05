@@ -54,4 +54,3 @@ Polymorphism:
 Polymorphism allows the same code to behave differently in different contexts.
 It enables a single method, class, or interface to operate on different types or behave in multiple ways.
 Example: Method overloading (compile-time polymorphism) and method overriding (runtime polymorphism)
-
