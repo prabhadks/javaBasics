@@ -18,8 +18,8 @@ public class GenericsMethodLevel {
         }
     }
 
-    // Using Wildcard. Type is unknown. This is upperbound. As at compile time, type is unknown. It can be Number or any of its subtypes.
-    // Add cannot be performed. Except adding null. Only read
+    // Using Wildcard. Type is unknown. This is lowerbound. As at compile time, type is unknown. It can be Integer or its super classes like Number, Object.
+    // Add can be performed.
     public List<? super Integer> addValues(List<? super Integer> values, Integer value) {
        values.add(value);
        return values;
